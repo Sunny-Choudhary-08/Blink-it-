@@ -1,0 +1,59 @@
+@media only screen and (min-width:200px) and (max-width:575px) {
+
+header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+    padding: 10px;
+}
+
+.search-box button  {
+    padding: 10px;
+}
+
+.header-left {
+    justify-content: center;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.address {
+    padding: 10px;
+}
+
+.address p {
+    font-size: 12px;
+}
+
+.address h3 {
+    font: 15px;
+}
+
+.header-btn {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-right: 0px;
+    justify-content: center;
+    background-color: white;
+}
+
+.banner-section {
+    display: none;
+}
+
+.order-banner{
+    flex-direction: column;
+    padding: 10px;
+}
+
+.shop-item{
+    flex-basis: 25%;
+}
+
+}
+
+
+
